@@ -4,6 +4,41 @@ A responsive standalone landing page for the **VIP Referral Rewards** programme,
 
 ---
 
+## Your GitHub Repository
+
+This landing page is version-controlled and pushed to GitHub:
+
+`https://github.com/cydniethompson0402-prog/aim2grow-vip-referral-rewards`
+
+---
+
+## 4 ways to publish it as a permanent website right now
+
+### 1. GitHub Pages (free & permanent, 3 clicks)
+1. Open your repository at `github.com/cydniethompson0402-prog/aim2grow-vip-referral-rewards`
+2. Go to **Settings** → scroll to **Danger Zone** → **Change visibility** → set to **Public** (required for free GitHub Pages)
+3. Go to **Settings → Pages** → under *Build and deployment*, set **Source: GitHub Actions**
+4. Done! Within 60 seconds, your site is permanently live at:
+   `https://cydniethompson0402-prog.github.io/aim2grow-vip-referral-rewards/`
+   Every future change you push will redeploy automatically.
+
+### 2. Netlify Drop (30 seconds, no account needed, repo stays private)
+1. Download and unzip the `vip-referral-landing-page.zip` package
+2. Open **app.netlify.com/drop**
+3. Drag the folder into the page — instant permanent HTTPS URL to share!
+
+### 3. Vercel (1 click from GitHub)
+1. Go to **vercel.com/new** and sign in with GitHub
+2. Import `aim2grow-vip-referral-rewards` and click **Deploy**
+3. You get a permanent `aim2grow-vip-referral-rewards.vercel.app` URL with automatic updates on every git push.
+
+### 4. Upload to your own domain (aim2grow.biz)
+1. Connect via FTP or your hosting file manager (cPanel / WordPress)
+2. Upload this folder to `public_html/vip-rewards/`
+3. Your page is now live at `https://aim2grow.biz/vip-rewards/`
+
+---
+
 ## Files in this package
 
 | File | Purpose |
@@ -13,27 +48,9 @@ A responsive standalone landing page for the **VIP Referral Rewards** programme,
 | `app.js` | Interactive tracker + copy-to-clipboard buttons |
 | `favicon.svg` | Aim2Grow brand icon |
 | `images/` | Curated photos (diverse women solopreneurs) |
+| `.github/workflows/deploy.yml` | Automated GitHub Pages deployment workflow |
 | `manus-routes.json` | Route manifest |
 | `README.md` | This guide |
-
----
-
-## How to use / publish
-
-### Option 1 — Netlify Drop (free, fastest, 60 seconds)
-1. Go to **app.netlify.com/drop**
-2. Drag and drop the `vip-referral-landing-page` folder
-3. Your page is live instantly on a secure HTTPS URL!
-
-### Option 2 — Upload to your existing website (WordPress / cPanel / FTP)
-1. Connect via your hosting file manager or FTP
-2. Upload the entire folder (e.g. to `public_html/vip-rewards/` or `yourdomain.com/vip-rewards/`)
-3. The page is now live at `https://yourdomain.com/vip-rewards/`
-
-### Option 3 — Cloudflare Pages or GitHub Pages (free)
-1. Push this folder to a GitHub repository
-2. Connect the repo to Cloudflare Pages or enable GitHub Pages in repo settings
-3. Build command: leave blank (static) — output: `/`
 
 ---
 
@@ -43,14 +60,6 @@ A responsive standalone landing page for the **VIP Referral Rewards** programme,
 - **Website link:** the share messages reference `https://aim2grow.biz` — update if you want referrals sent to a different landing page or sign-up link.
 - **Milestones:** to change the 5-paying / 15-free thresholds, edit the numbers in `index.html` and the corresponding values in `app.js` (`updateTracker` function).
 - **Images:** replace any image inside `images/` keeping the same filenames.
-
----
-
-## Live preview in this session
-
-The page is being served locally on port **8000** and can be viewed at:
-
-`https://8000-i2mhlpixghm1kjqsp6gpf-b8a88925.us5.manus.computer`
 
 ---
 
